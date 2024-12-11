@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1> Задание 1-2 Калькулятор </h1>
+    <!-- поле ввода первого числа -->
+	<input id="num1" />
+
+	<!-- блок с кнопками -->
+	<div id="operator_btns">
+	  <button id="plus" onclick="op='+'">+</button>
+	  <button id="minus" onclick="op='-'">-</button>
+	  <button id="times" onclick="op='*'">x</button>
+	  <button id="divide" onclick="op='/'">:</button>
+	</div>
+        <script src="/script.js"></script>
+	<!-- поле ввода второго числа -->
+	<input id="num2" />
+	<!-- кнопка для расчётов -->
+	<button onclick="func()">Посчитать</button>
+	<!-- здесь будет результат -->
+    <p>Ответ:</p>
+	<p id="result"></p>
+     <script src="/script.js"></script>
+     <h1>Задание 3</h1>
+     <button onclick="Chislo()">Загадоное число </button>
+     <script src="zadaniy3.js"></script>
+     <div id="otvet"></div>
+     <h1> Задание 4 </h1> 
+     <button onclick="checkAnswer()">имя</button>
+     <div id="answer"></div>
+     <button onclick="checkAnswer1()">Год рождения  </button>
+     <div id="answer1"></div>
+     <script src="/rozhden.js"></script>
+  </body>
+</html>
